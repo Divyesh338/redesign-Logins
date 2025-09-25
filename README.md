@@ -25,20 +25,17 @@ This project is an **Angular login page component** featuring a full-screen back
 
 ---
 
-## Folder Structure
+## Project Folder Structure
 
+```text
 src/
 ├── app/
-│ └── components/
-│ └── login1/
-│ ├── login1.component.html
-│ ├── login1.component.scss
-│ └── login1.component.ts
+│   └── components/
+│       └── login1/
+│           ├── login1.component.html
+│           ├── login1.component.scss
+│           └── login1.component.ts
 ├── assets/
-│ └── img3.webp # Background image
-├── styles.scss # Global styles
+│   └── img3.webp       # Background image
+├── styles.scss          # Global styles
 └── index.html
-
-
-
-
