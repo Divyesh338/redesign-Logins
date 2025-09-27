@@ -1,0 +1,69 @@
+<div class="body">
+  <div class="container" [class.active]="isRegister">
+    <div class="form-box login">
+      <form action="">
+        <h1>Login</h1>
+        <div class="input-box">
+          <input type="text" placeholder="Username" required />
+          <ion-icon name="person"></ion-icon>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Password" required />
+          <ion-icon name="lock-closed"></ion-icon>
+        </div>
+        <div class="forgot-link">
+          <a href="#">Forgot Password</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <p>Login with social platforms</p>
+        <div class="social-icons">
+          <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+      </form>
+    </div>
+
+    <div class="form-box register">
+      <form action="">
+        <h1>Registration</h1>
+        <div class="input-box">
+          <input type="text" placeholder="Username" required />
+          <ion-icon name="person"></ion-icon>
+        </div>
+        <div class="input-box">
+          <input type="email" placeholder="Email" required />
+          <ion-icon name="mail"></ion-icon>
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Password" required />
+          <ion-icon name="lock-closed"></ion-icon>
+        </div>
+        <div class="forgot-link">
+          <a href="#">Forgot Password</a>
+        </div>
+        <button type="submit" class="btn">Register</button>
+        <p>Register with social platforms</p>
+        <div class="social-icons">
+          <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+      </form>
+    </div>
+    <div class="toggle-box">
+      <div class="toggle-panel toggle-left">
+        <h1>Hello, Welcome!</h1>
+        <p>Don't have an account</p>
+        <button class="btn register-btn" (click)="activateRegister()">Register</button>
+      </div>
+      <div class="toggle-panel toggle-right">
+        <h1>Welcome Back</h1>
+        <p>Already have an account</p>
+        <button class="btn login-btn" (click)="activateLogin()">Login</button>
+      </div>
+    </div>
+  </div>
+</div>
