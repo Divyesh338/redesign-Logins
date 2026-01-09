@@ -4,6 +4,22 @@ This project is an **Angular login page component** featuring a full-screen back
 
 ---
 
+## 🔐 Login & Registration Page
+
+A responsive Login and Registration UI built using **HTML, CSS, and JavaScript**.
+
+## 📚 Credits
+This project UI design and concept is inspired by a tutorial from **Codehal** on YouTube.
+
+- YouTube Channel: Codehal  
+- Video Link: [https://www.youtube.com/watch?v=](https://www.youtube.com/watch?v=Z_AbWH-Vyl8&list=PLA9oyBlTfuCguMi9PTwvA2ewTPJ7701EI&index=3)
+
+## ⚠️ Disclaimer
+This project is created for **learning and practice purposes only**.  
+All design credits go to the original creator.
+
+ ---
+
 ## Features
 
 - **Full-page background image** that scales across all screen sizes (`background-size: cover`).
